@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BioData "
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:src="@drawable/devrconda"
+        android:scaleType="fitXY"
+        android:layout_marginHorizontal="300dp"
+        android:layout_marginTop="15dp"
+      />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Detail:-"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full name:- Vijay Sai Deveraconda"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth:- 09/05/1989 "
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:hint=""/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birth Time:- 6:00pm"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:hint=""/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender:- male"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:hint=""
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place of Birth :- Hyderabad  "
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:hint=""/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rashi :- sinh"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:hint=""/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nakshatar:- rahu"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:hint=""/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complexion :-medium"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:hint=""/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height :-182c.m"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:hint=""/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight :- 72kg"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:hint=""/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eduction:- Bachelor Degree in Commerce"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:hint=""/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joboccupition :- Actors"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:hint=""/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family Detail:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="7dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Father Name:- Govardhana Deveraconda"
+        android:textSize="12dp"
+        android:hint=""
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Father's occupation:- TV Serial derictor"
+        android:hint=""
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mother Name:- Madhavi Deveraconda"
+        android:textSize="12dp"
+        android:hint=""
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mother's occupation:- Businesperson"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:hint=""
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brother Name:- Anand Deveraconda"
+        android:hint=""
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sister Name:- Not Known"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:hint=""
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"/>
+
+
+
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number:"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number:- Father : 8520938596,"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                               Personal: 8520938596,"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:- Achampet, Telangana, India"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textStyle="italic"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
